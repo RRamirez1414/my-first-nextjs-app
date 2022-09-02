@@ -6,7 +6,7 @@ import { MongoClient } from 'mongodb'
  */
 async function getMongoClientCollection(collection) {
   const client = await MongoClient.connect(
-    'mongodb+srv://admin:NextJs123!@cluster0.bhpyf9f.mongodb.net/meetups?retryWrites=true&w=majority'
+    `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_SECRET}@cluster0.bhpyf9f.mongodb.net/meetups?retryWrites=true&w=majority`
   )
   const db = client.db()
 
