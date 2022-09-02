@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![GitHub deployments](https://img.shields.io/github/deployments/rramirez1414/my-first-nextjs-app/production?label=vercel&logo=vercel&logoColor=vercel)](https://my-first-nextjs-demo.vercel.app/)
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This project is a demo project covering Next.js key features such as file based routing, static site generation, and server side rendering. 
 
 ## Getting Started
 
